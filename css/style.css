@@ -4,7 +4,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #494949;
+  background-color: #00227b;
 }
 
 li {
@@ -26,8 +26,8 @@ li a:hover {
 }
 body{
   margin:auto;
-  background-color:#efefef;
-  border-bottom: 5px solid #c4a012;
+  background-color: #efefef;
+  border-bottom: 5px solid #1565c0;
 }
 #website {
     width:900px;
@@ -68,7 +68,11 @@ h3 {
     font-size: 21px;
 }
 select {
-  padding: 20px 50px
+  padding: 20px 50px;
+  background-color: #bdbdbd ;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 button {
@@ -82,5 +86,5 @@ button {
 	text-decoration:none;
 }
 button:hover {
-	background-color: #c4a012;
+	background-color: #1565c0;
 }
