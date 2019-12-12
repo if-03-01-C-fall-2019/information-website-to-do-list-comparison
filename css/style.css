@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin:auto;
+  background-color: #EEEEEE;
+}
+#wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -12,7 +24,6 @@ li {
 }
 
 li a {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   display: block;
   color: white;
@@ -21,16 +32,6 @@ li a {
   text-decoration: none;
 }
 
-body{
-  margin:auto;
-  background-color: #EEEEEE;
-}
-#website {
-    width:900px;
-    position:absolute;
-    left:50%;
-    margin-left:-450px;
-}
 header{
   padding: 20px;
   margin-left: auto;
@@ -41,149 +42,99 @@ header{
   min-height:70px;
 }
 article {
-  font-family: 'Open Sans', sans-serif;
-  width : 800px;
-  height: 260px;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  padding-left: 30px;
+  margin: 25px;
+
   float: left;
   font-weight: 100;
 }
 h1 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 48px;
     color: white;
 }
 h2 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 28px;
 }
 h3 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 21px;
 }
-select {
-  padding: 12px 24px;
-  background-color: white ;
-  border-radius: 3px;
-  margin-top: 50px;
-  margin-left: 50px;
-}
-
-
-
 .btn {
-  font-family: 'Open Sans', sans-serif;
   position: relative;
-float: left;ssss
-  display: block;
+  float: left;
   margin: 30px auto;
   padding: 0;
-
   overflow: hidden;
-
   border-width: 0;
   outline: none;
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-
   background-color:  #00227b;
   color: #ecf0f1;
-
   transition: background-color .3s;
 }
-
 .btn:hover, .btn:focus {
   background-color: #3f51b5;
 }
-
-.btn > * {
-  position: relative;
-}
-
 .btn span {
   display: block;
   padding: 12px 24px;
 }
-
 .btn:before {
   content: "";
-
   position: absolute;
   top: 50%;
   left: 50%;
-
   display: block;
   width: 0;
   padding-top: 0;
-
   border-radius: 100%;
-
   background-color: rgba(236, 240, 241, .3);
-
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
 .btn:active:before {
   width: 120%;
   padding-top: 120%;
-
   transition: width .2s ease-out, padding-top .2s ease-out;
 }
 
 .tap {
-  font-family: 'Open Sans', sans-serif;
   position: relative;
+  float: left;
+  padding: 0;
   overflow: hidden;
-
   border-width: 0;
   outline: none;
-
-  background-color: #00227b;
+  background-color:  #00227b;
   color: #ecf0f1;
-
   transition: background-color .3s;
 }
-
 .tap:hover, .btn:focus {
   background-color: #3f51b5;
 }
-
-.tap > * {
-  position: relative;
+.tap span {
+  display: block;
+  padding: 12px 24px;
 }
-
-
 .tap:before {
   content: "";
-
   position: absolute;
   top: 50%;
   left: 50%;
-
   display: block;
   width: 0;
   padding-top: 0;
-
   border-radius: 100%;
-
   background-color: rgba(236, 240, 241, .3);
-
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
 .tap:active:before {
   width: 120%;
   padding-top: 120%;
-
   transition: width .2s ease-out, padding-top .2s ease-out;
 }
