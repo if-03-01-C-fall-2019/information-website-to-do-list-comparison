@@ -3,9 +3,12 @@
 body{
   font-family: 'Open Sans', sans-serif;
   margin:auto;
+  max-width: 960px;
   background-color: #EEEEEE;
 }
-
+section {
+  position: relative;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -13,11 +16,9 @@ ul {
   overflow: hidden;
   background-color: #00227b;
 }
-
 li {
   float: left;
 }
-
 li a {
   font-weight: 100;
   display: block;
@@ -26,34 +27,17 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-section {
-  /* width: 960px; */
-	margin-right: auto;
-	margin-left: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 0);
-
-}
 header{
-  padding: 20px;
+  padding: 5px 20px 5px;
   margin-left: auto;
   margin-right: auto;
   background:#3f50b5;
-  padding-top:5px;
-  padding-bottom: 5px;
-  min-height:70px;
+  min-height: 70px;
 }
 article {
   background-color: white;
-  padding: 3px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding: 30px;
   margin: 30px;
-  margin-bottom: 5px;
-
-  /* float: left; */
   font-weight: 100;
 }
 h1 {
@@ -71,11 +55,8 @@ h3 {
     font-weight: 100;
     font-size: 21px;
 }
-.btn {
-  /* float: left; */
-  margin: 30px auto;
-  padding: 0;
-  overflow: hidden;
+button {
+  padding: 12px 24px;
   border-width: 0;
   outline: none;
   border-radius: 2px;
@@ -84,63 +65,14 @@ h3 {
   color: #ecf0f1;
   transition: background-color .3s;
 }
-.btn:hover, .btn:focus {
+button:hover {
   background-color: #3f51b5;
 }
-.btn span {
-  display: block;
-  padding: 12px 24px;
-}
-.btn:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-  width: 0;
-  padding-top: 0;
-  border-radius: 100%;
-  background-color: rgba(236, 240, 241, .3);
-  transform: translate(-50%, -50%);
-}
-.btn:active:before {
-  width: 120%;
-  padding-top: 120%;
-  transition: width .2s ease-out, padding-top .2s ease-out;
-}
-
 .tap {
-  position: relative;
-  float: left;
-  padding: 0;
-  overflow: hidden;
-  border-width: 0;
-  outline: none;
   background-color:  #00227b;
   color: #ecf0f1;
   transition: background-color .3s;
 }
-.tap:hover, .btn:focus {
+.tap:hover {
   background-color: #3f51b5;
-}
-.tap span {
-  display: block;
-  padding: 12px 24px;
-}
-.tap:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-  width: 0;
-  padding-top: 0;
-  border-radius: 100%;
-  background-color: rgba(236, 240, 241, .3);
-  transform: translate(-50%, -50%);
-}
-.tap:active:before {
-  width: 120%;
-  padding-top: 120%;
-  transition: width .2s ease-out, padding-top .2s ease-out;
 }
