@@ -39,6 +39,19 @@ li a:hover {
   background-color: #3f51b5;
   color: white;
 }
+.parallax {
+  /* The image used */
+  background-image: url("Wallpaper.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 header {
   margin-left: auto;
@@ -90,4 +103,23 @@ button {
 button:hover {
   background-color: #3f51b5;
   cursor: pointer
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;  margin: 30px;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: white
 }
