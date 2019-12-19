@@ -116,3 +116,16 @@ th:first-child, td:first-child {
 tr:nth-child(even) {
   background-color: white
 }
+p#creator_name {
+  font-weight: bold;
+  font-size: 25px;
+}
+p#hello_line {
+  font-size: 25px;
+}
+ul#social_media {
+  background-color: white;
+}
+a#github_link {
+  background-color: white;
+}
