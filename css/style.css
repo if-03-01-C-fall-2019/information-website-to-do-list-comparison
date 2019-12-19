@@ -101,7 +101,7 @@ table {
   border-spacing: 0;
   width: 100%;
   margin: 30px;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
 }
 
 th, td {
@@ -128,4 +128,7 @@ ul#social_media {
 }
 a#github_link {
   background-color: white;
+}
+td.bold_td {
+  font-weight: bold;
 }
