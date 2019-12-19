@@ -39,18 +39,21 @@ li a:hover {
   background-color: #3f51b5;
   color: white;
 }
+
 header.header_other {
   margin-left: auto;
   margin-right: auto;
   background: #3f50b5;
   min-height: 70px;
 }
+
 header {
   margin-left: auto;
   margin-right: auto;
   background: #3f50b5;
   min-height: 1000px;
 }
+
 h1.h1_other {
   padding: 30px 20px 30px;
   margin: auto;
@@ -71,7 +74,6 @@ h1#h1_main {
 
 .parallax {
   background-image: url("../images/Wallpaper.png");
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -137,19 +139,24 @@ th:first-child, td:first-child {
 tr:nth-child(even) {
   background-color: white
 }
+
 p#creator_name {
   font-weight: bold;
   font-size: 25px;
 }
+
 p#hello_line {
   font-size: 25px;
 }
+
 ul#social_media {
   background-color: white;
 }
+
 a#github_link {
   background-color: white;
 }
+
 td.bold_td {
   font-weight: bold;
 }
