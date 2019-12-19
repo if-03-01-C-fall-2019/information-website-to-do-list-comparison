@@ -39,21 +39,42 @@ li a:hover {
   background-color: #3f51b5;
   color: white;
 }
-
+header.header_other {
+  margin-left: auto;
+  margin-right: auto;
+  background: #3f50b5;
+  min-height: 70px;
+}
 header {
   margin-left: auto;
   margin-right: auto;
   background: #3f50b5;
   min-height: 1000px;
 }
-
-header h1 {
+h1.h1_other {
   padding: 30px 20px 30px;
   margin: auto;
   max-width: 900px;
-  font-weight: bold;
+  font-weight: 300;
+  font-size: 48px;
+  color: white;
+}
+
+h1#h1_main {
+  padding: 200px 20px 30px;
+  margin: auto;
+  max-width: 900px;
   font-size: 100px;
-  color: darkgrey;
+  text-align: center;
+  color: #101112;
+}
+
+.parallax {
+  background-image: url("../images/Wallpaper.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 article {
@@ -131,12 +152,4 @@ a#github_link {
 }
 td.bold_td {
   font-weight: bold;
-}
-.parallax {
-
-  background-image: url("../images/Wallpaper.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
